@@ -1,0 +1,19 @@
+/*
+Judge: %s
+PROG: %s
+*/
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#define test
+using namespace std;
+
+int main()
+{
+	#ifdef test
+	freopen("%s_%s_%s.in","r",stdin);
+	freopen("%s_%s_%s.out","w",stdout);
+	#endif
+	
+	return 0;
+}
